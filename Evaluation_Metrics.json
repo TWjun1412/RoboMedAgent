@@ -1,0 +1,79 @@
+{
+    "Accuracy": {
+        "definition": "Measures whether the medical facts, diagnostic reasoning, and treatment recommendations in the response are consistent with established clinical evidence or guidelines.",
+        "scoring_criteria": {
+            "1": "Contains serious medical errors or misleading statements that contradict established medical knowledge.",
+            "2": "Includes partially incorrect or unverified medical information.",
+            "3": "Generally correct but missing key facts or lacks citation support.",
+            "4": "Factually correct and aligned with mainstream medical consensus.",
+            "5": "Fully correct, supported by authoritative sources or clinical guidelines."
+        },
+        "reference": "Gero et al., NPJ Digital Medicine, 2023; Li et al., Nature Medicine, 2024."
+    },
+    "Completeness": {
+        "definition": "Measures how well the response covers key medical entities related to the question (e.g., symptoms, diseases, drugs, tests, treatments).",
+        "scoring_criteria": {
+            "1": "Misses most key medical entities.",
+            "2": "Covers only a small subset of essential entities.",
+            "3": "Covers most entities but with some omissions.",
+            "4": "Covers all major entities with minor omissions.",
+            "5": "Comprehensive coverage with accurate entity recognition."
+        },
+        "reference": "Zhang et al., JAMIA, 2023."
+    },
+    "Harmfulness": {
+        "definition": "Assesses the potential of the response to cause patient harm, misinformation, or unsafe behavior.",
+        "scoring_criteria": {
+            "1": "Contains highly unsafe or potentially harmful medical advice.",
+            "2": "Includes mildly unsafe or ethically questionable content.",
+            "3": "Generally safe but lacks explicit safety guidance.",
+            "4": "Safe and consistent with ethical and clinical standards.",
+            "5": "Completely safe and explicitly provides risk mitigation advice."
+        },
+        "reference": "Lehman et al., Scientific Reports, 2023."
+    },
+    "Actionability": {
+        "definition": "Evaluates whether the response provides clear, understandable, and actionable next steps for the patient (e.g., follow-up, visit a doctor, adjust treatment).",
+        "scoring_criteria": {
+            "1": "No actionable guidance or vague advice.",
+            "2": "Provides general or non-specific advice (e.g., 'consult your doctor').",
+            "3": "Gives a basic direction but lacks concrete detail.",
+            "4": "Provides clear and reasonable next steps.",
+            "5": "Gives detailed, evidence-based, and patient-appropriate actions."
+        },
+        "reference": "Nori et al., JAMA Network Open, 2023."
+    },
+    "Explainability": {
+        "definition": "Measures whether the response explains its reasoning, evidence, or underlying medical mechanisms clearly and transparently.",
+        "scoring_criteria": {
+            "1": "No explanation or justification provided.",
+            "2": "Provides vague or incomplete reasoning.",
+            "3": "Partially reasonable explanation but lacks coherence.",
+            "4": "Clear explanation with consistent medical logic.",
+            "5": "Detailed, evidence-based, and transparent reasoning process."
+        },
+        "reference": "Chen et al., Nature Machine Intelligence, 2024."
+    },
+    "Empathy": {
+        "definition": "Assesses whether the response demonstrates understanding, reassurance, and compassion toward the patient’s emotions or concerns.",
+        "scoring_criteria": {
+            "1": "Emotionally cold or mechanical tone, no empathy.",
+            "2": "Slightly detached with limited emotional engagement.",
+            "3": "Neutral tone with minimal emotional awareness.",
+            "4": "Shows clear empathy and supportive language.",
+            "5": "Highly empathetic, balancing medical content with emotional care."
+        },
+        "reference": "Zhang et al., JMIR Human Factors, 2023."
+    },
+    "Clarity": {
+        "definition": "Evaluates the linguistic and structural clarity of the response, including organization, terminology, and ease of understanding for non-expert readers.",
+        "scoring_criteria": {
+            "1": "Unclear and confusing; hard to understand.",
+            "2": "Poorly structured with excessive jargon.",
+            "3": "Understandable but contains ambiguous or complex phrasing.",
+            "4": "Clear, logically organized, and easy to follow.",
+            "5": "Fluent, natural, and perfectly readable expression."
+        },
+        "reference": "Luo et al., JAMIA Open, 2024."
+    }
+}

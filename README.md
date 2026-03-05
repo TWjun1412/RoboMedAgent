@@ -113,10 +113,10 @@ As validated in the study across 220,000+ dialogues:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{robomedagent2024,
+@article{robomedagent2026,
   title={RoboMedAgent: Harmonizing Active Listening, Consulting, and Caring to Deliver Accurate and Empathetic Healthcare Guidance},
   author={...},
-  year={2024}
+  year={2026}
 }
 
 ```
